@@ -1,0 +1,41 @@
+body {
+    background: white;
+}
+
+.wrapper {
+    width: 300px;
+    text-align: center;
+}
+
+.changeColorBtn {
+    width: 200px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    background: rgb(209, 36, 36);
+    color: aqua;
+    cursor: pointer;
+}
+
+.changeColorBtn:hover{
+    background: rgb(230, 64, 64);
+}
+
+.colorGrid {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+
+.selectedColor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.colorValue {
+    margin-left: 5px;
+    font-weight: bold;
+}
